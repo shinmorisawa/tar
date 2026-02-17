@@ -1,3 +1,7 @@
+// base.h - mini C header i use everywhere
+// public domain'd
+// https://tryh4rd.dev/
+
 #pragma once
 #include <stdint.h>
 #include <stdbool.h>
