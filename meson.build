@@ -1,4 +1,4 @@
-project('basic', 'c',
+project('tar', 'c',
   version: '0.1',
   default_options: ['warning_level=3', 'c_std=gnu2x', 'werror=true']
 )
@@ -15,7 +15,7 @@ include = include_directories(
   'include'
 )
 
-executable('basic', srcs,
+executable('tar', srcs,
   include_directories: include,
   install: true,
 )
